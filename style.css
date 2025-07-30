@@ -219,7 +219,9 @@
                 font-size: 12px;
                 font-weight: 700;
                 border-radius: 9999px;
-                margin-right: 12px;
+            }
+            .beta-tag i{
+               margin-right: 5px;
             }
 
             .beta-text {
@@ -737,16 +739,26 @@
                 padding: 64px 0;
             }
 
-            .footer-content {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr;
-                gap: 48px;
-                margin-bottom: 32px;
+            .footer-content  {
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               margin-bottom: 0.5rem;
             }
 
+            .footer-brand{
+                 display: flex;
+               align-items: center;
+               justify-content: center;
+               flex-direction: column;
+            }
+
+            .footer-brand .logo .logo-text {
+                color: #fff;
+                margin: 16px 0;
+            }
             .footer-brand p {
                 color: #9ca3af;
-                margin: 16px 0;
             }
 
             .footer-links {
@@ -854,6 +866,9 @@
             @media (max-width: 480px) {
                 .container {
                     padding: 0 16px;
+                }
+                .beta-text{
+                    display: none;
                 }
 
                 .hero {

@@ -39,68 +39,7 @@
             const SIGNUP_URL = 'https://app.notlify.in/signup';
             const DEMO_URL = 'https://notlify.in/demo';
 
-            // Handle CTA button clicks
-            function handleCTAClick(action) {
-                switch(action) {
-                    case 'signup':
-                        window.open(SIGNUP_URL, '_blank');
-                        break;
-                    case 'login':
-                        window.open(LOGIN_URL, '_blank');
-                        break;
-                    case 'demo':
-                        window.open(DEMO_URL, '_blank');
-                        break;
-                    case 'app':
-                        window.open(FRONTEND_URL, '_blank');
-                        break;
-                    default:
-                        window.open(SIGNUP_URL, '_blank');
-                }
-            }
-
-            // Mobile menu toggle
-            function toggleMobileMenu() {
-                const mobileMenu = document.querySelector('.mobile-menu');
-                const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
-                
-                mobileMenu.classList.toggle('active');
-                mobileMenuBtn.classList.toggle('active');
-            }
-
-            // Add click handlers to all CTA buttons
-            document.querySelectorAll('[data-action]').forEach(button => {
-                button.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const action = this.getAttribute('data-action');
-                    handleCTAClick(action);
-                });
-            });
-
-            // Close mobile menu when clicking outside or on links
-            document.addEventListener('click', function(e) {
-                const mobileMenu = document.querySelector('.mobile-menu');
-                const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
-                
-                if (mobileMenu && mobileMenuBtn && !mobileMenu.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
-                    mobileMenu.classList.remove('active');
-                    mobileMenuBtn.classList.remove('active');
-                }
-            });
-
-            // Close mobile menu when clicking on nav links
-            document.querySelectorAll('.mobile-nav-link').forEach(link => {
-                link.addEventListener('click', function() {
-                    const mobileMenu = document.querySelector('.mobile-menu');
-                    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
-                    
-                    if (mobileMenu && mobileMenuBtn) {
-                        mobileMenu.classList.remove('active');
-                        mobileMenuBtn.classList.remove('active');
-                    }
-                });
-            });
-
+         
             // Intersection Observer for animations
             const observerOptions = {
                 threshold: 0.1,
