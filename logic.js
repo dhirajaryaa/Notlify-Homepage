@@ -32,13 +32,6 @@
                     element.classList.add("active");
                 }
             }
-
-            // Configuration - Update these URLs as needed
-            const FRONTEND_URL = 'https://notlify.in';
-            const LOGIN_URL = 'https://app.notlify.in/login';
-            const SIGNUP_URL = 'https://app.notlify.in/signup';
-            const DEMO_URL = 'https://notlify.in/demo';
-
          
             // Intersection Observer for animations
             const observerOptions = {
