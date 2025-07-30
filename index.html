@@ -1,910 +1,936 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NotifyHub - All Your Notifications in One Place</title>
-    <meta
-      name="description"
-      content="Stop switching between tabs. Get notifications from Gmail, GitHub, YouTube, DevTO, Hashnode, and 50+ other platforms in a single, beautiful dashboard. Free 14-day trial."
-    />
-    <meta
-      property="og:title"
-      content="NotifyHub - All Your Notifications in One Place"
-    />
-    <meta
-      property="og:description"
-      content="Unified notification dashboard for Gmail, GitHub, YouTube, DevTO, Hashnode and 50+ platforms. Transform your workflow today."
-    />
-    <meta property="og:type" content="website" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-  <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-      <div class="container">
-        <div class="nav-content">
-          <div class="logo">
-            <div class="logo-icon">
-              <i class="fas fa-bell"></i>
-            </div>
-            <span class="logo-text">NotifyHub</span>
-          </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Notlify - All Your Notifications in One Place</title>
+        <meta
+            name="description"
+            content="Stop switching between tabs. Get notifications from Gmail, GitHub, YouTube, DevTO, Hashnode, and 50+ other platforms in a single, beautiful dashboard. Free 14-day trial."
+        />
+        <meta
+            property="og:title"
+            content="Notlify - All Your Notifications in One Place"
+        />
+        <meta
+            property="og:description"
+            content="Unified notification dashboard for Gmail, GitHub, YouTube, DevTO, Hashnode and 50+ platforms. Transform your workflow today."
+        />
+        <meta property="og:type" content="website" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <span class="logo-text">Notlify</span>
+                    </div>
 
-          <div class="nav-links">
-            <a href="#features" class="nav-link">Features</a>
-            <a href="#testimonials" class="nav-link">Testimonials</a>
-            <a href="#faq" class="nav-link">FAQ</a>
-            <a href="#" class="btn btn-primary">Get Started</a>
-          </div>
-
-          <button class="mobile-menu-btn">
-            <i class="fas fa-bars"></i>
-          </button>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="container">
-        <div class="beta-badge">
-          <div class="beta-container">
-            <span class="beta-tag">
-              <i class="fas fa-rocket"></i>
-              BETA
-            </span>
-            <span class="beta-text"
-              >Early Access • Join 10,000+ Users • Limited Time</span
-            >
-          </div>
-        </div>
-
-        <div class="hero-content">
-          <div class="hero-text">
-            <h1>
-              All Your
-              <span class="text-gradient">Notifications</span> in One Place
-            </h1>
-            <p>
-              Stop switching between tabs. Get notifications from Gmail, GitHub,
-              YouTube, DevTO, Hashnode, and 50+ other platforms in a single,
-              beautiful dashboard.
-            </p>
-
-            <div class="hero-buttons">
-              <a href="#" class="btn btn-primary btn-lg">
-                <i class="fas fa-play"></i>
-                Start Free Trial
-              </a>
-              <a
-                href="#"
-                class="btn btn-lg"
-                style="
-                  border: 2px solid #8b5cf6;
-                  color: #8b5cf6;
-                  background: white;
-                "
-              >
-                <i class="fas fa-play-circle"></i>
-                Watch Demo
-              </a>
-            </div>
-
-            <div class="hero-features">
-              <div class="feature-item">
-                <i class="fas fa-check-circle" style="color: #10b981"></i>
-                Free 14-day trial
-              </div>
-              <div class="feature-item">
-                <i class="fas fa-check-circle" style="color: #10b981"></i>
-                No credit card required
-              </div>
-              <div class="feature-item">
-                <i class="fas fa-check-circle" style="color: #10b981"></i>
-                Cancel anytime
-              </div>
-            </div>
-          </div>
-
-          <div class="hero-image">
-            <img
-              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600"
-              alt="Modern workspace with multiple monitors showing dashboard interfaces"
-            />
-
-            <div class="floating-card floating-card-1">
-              <div style="display: flex; align-items: center; gap: 12px">
-                <i
-                  class="fab fa-github"
-                  style="color: #333; font-size: 20px"
-                ></i>
-                <div>
-                  <div style="font-weight: 600; font-size: 14px">
-                    New PR Review
-                  </div>
-                  <div style="font-size: 12px; color: #6b7280">
-                    2 minutes ago
-                  </div>
+                    <div class="nav-links">
+                        <a href="#" class="btn btn-primary" data-action="signup">Get Started</a>
+                    </div>
                 </div>
-              </div>
             </div>
+        </nav>
 
-            <div class="floating-card floating-card-2">
-              <div style="display: flex; align-items: center; gap: 12px">
-                <i
-                  class="fas fa-envelope"
-                  style="color: #ef4444; font-size: 20px"
-                ></i>
-                <div>
-                  <div style="font-weight: 600; font-size: 14px">
-                    3 New Emails
-                  </div>
-                  <div style="font-size: 12px; color: #6b7280">
-                    5 minutes ago
-                  </div>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="beta-badge">
+                    <div class="beta-container">
+                        <span class="beta-tag">
+                            <i class="fas fa-rocket"></i>
+                            BETA
+                        </span>
+                        <span class="beta-text"
+                            >Early Access • Join 10,000+ Users • Limited
+                            Time</span
+                        >
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Platform Slider -->
-    <section class="platform-slider">
-      <div class="container">
-        <p class="slider-text">Connect with 50+ platforms you already use</p>
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>
+                            All Your
+                            <span class="text-gradient">Notifications</span> in
+                            One Place
+                        </h1>
+                        <p>
+                            Stop switching between tabs. Get notifications from
+                            Gmail, GitHub, YouTube, DevTO, Hashnode, and 50+
+                            other platforms in a single, beautiful dashboard.
+                        </p>
 
-        <div class="slider-container">
-          <div class="slider-track">
-            <div class="slider-content">
-              <div class="platform-item">
-                <i
-                  class="fab fa-google platform-icon"
-                  style="color: #ea4335"
-                ></i>
-                <span class="platform-name">Gmail</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-youtube platform-icon"
-                  style="color: #ff0000"
-                ></i>
-                <span class="platform-name">YouTube</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-github platform-icon"
-                  style="color: #181717"
-                ></i>
-                <span class="platform-name">GitHub</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-slack platform-icon"
-                  style="color: #4a154b"
-                ></i>
-                <span class="platform-name">Slack</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-discord platform-icon"
-                  style="color: #5865f2"
-                ></i>
-                <span class="platform-name">Discord</span>
-              </div>
-              <div class="platform-item">
-                <i class="fas fa-code platform-icon" style="color: #0a0a0a"></i>
-                <span class="platform-name">Dev.to</span>
-              </div>
-              <div class="platform-item">
-                <i class="fas fa-blog platform-icon" style="color: #2962ff"></i>
-                <span class="platform-name">Hashnode</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-reddit platform-icon"
-                  style="color: #ff4500"
-                ></i>
-                <span class="platform-name">Reddit</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-linkedin platform-icon"
-                  style="color: #0a66c2"
-                ></i>
-                <span class="platform-name">LinkedIn</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-medium platform-icon"
-                  style="color: #000000"
-                ></i>
-                <span class="platform-name">Medium</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-figma platform-icon"
-                  style="color: #f24e1e"
-                ></i>
-                <span class="platform-name">Figma</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-trello platform-icon"
-                  style="color: #0052cc"
-                ></i>
-                <span class="platform-name">Trello</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fas fa-sticky-note platform-icon"
-                  style="color: #000000"
-                ></i>
-                <span class="platform-name">Notion</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fas fa-rocket platform-icon"
-                  style="color: #da552f"
-                ></i>
-                <span class="platform-name">Product Hunt</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-dropbox platform-icon"
-                  style="color: #0061ff"
-                ></i>
-                <span class="platform-name">Dropbox</span>
-              </div>
-              <div class="platform-item">
-                <i class="fas fa-link platform-icon" style="color: #ff4a00"></i>
-                <span class="platform-name">Zapier</span>
-              </div>
-            </div>
-            <!-- Duplicate for seamless loop -->
-            <div class="slider-content" style="margin-left: 64px">
-              <div class="platform-item">
-                <i
-                  class="fab fa-google platform-icon"
-                  style="color: #ea4335"
-                ></i>
-                <span class="platform-name">Gmail</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-youtube platform-icon"
-                  style="color: #ff0000"
-                ></i>
-                <span class="platform-name">YouTube</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-github platform-icon"
-                  style="color: #181717"
-                ></i>
-                <span class="platform-name">GitHub</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-slack platform-icon"
-                  style="color: #4a154b"
-                ></i>
-                <span class="platform-name">Slack</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-discord platform-icon"
-                  style="color: #5865f2"
-                ></i>
-                <span class="platform-name">Discord</span>
-              </div>
-              <div class="platform-item">
-                <i class="fas fa-code platform-icon" style="color: #0a0a0a"></i>
-                <span class="platform-name">Dev.to</span>
-              </div>
-              <div class="platform-item">
-                <i class="fas fa-blog platform-icon" style="color: #2962ff"></i>
-                <span class="platform-name">Hashnode</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-reddit platform-icon"
-                  style="color: #ff4500"
-                ></i>
-                <span class="platform-name">Reddit</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-linkedin platform-icon"
-                  style="color: #0a66c2"
-                ></i>
-                <span class="platform-name">LinkedIn</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-medium platform-icon"
-                  style="color: #000000"
-                ></i>
-                <span class="platform-name">Medium</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-figma platform-icon"
-                  style="color: #f24e1e"
-                ></i>
-                <span class="platform-name">Figma</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-trello platform-icon"
-                  style="color: #0052cc"
-                ></i>
-                <span class="platform-name">Trello</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fas fa-sticky-note platform-icon"
-                  style="color: #000000"
-                ></i>
-                <span class="platform-name">Notion</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fas fa-rocket platform-icon"
-                  style="color: #da552f"
-                ></i>
-                <span class="platform-name">Product Hunt</span>
-              </div>
-              <div class="platform-item">
-                <i
-                  class="fab fa-dropbox platform-icon"
-                  style="color: #0061ff"
-                ></i>
-                <span class="platform-name">Dropbox</span>
-              </div>
-              <div class="platform-item">
-                <i class="fas fa-link platform-icon" style="color: #ff4a00"></i>
-                <span class="platform-name">Zapier</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+                        <div class="hero-buttons">
+                            <a href="#" class="btn btn-primary btn-lg" data-action="signup">
+                                <i class="fas fa-play"></i>
+                                Start Free Trial
+                            </a>
+                            <a href="#" class="btn btn-secondary btn-lg" data-action="demo">
+                                <i class="fas fa-play-circle"></i>
+                                Watch Demo
+                            </a>
+                        </div>
 
-    <!-- Highlights Section -->
-    <section class="highlights">
-      <div class="container">
-        <div class="section-header">
-          <h2>Why Choose NotifyHub?</h2>
-          <p>
-            Stop missing important updates and streamline your workflow with our
-            powerful notification management platform.
-          </p>
-        </div>
+                        <div class="hero-features">
+                            <div class="feature-item">
+                                <i
+                                    class="fas fa-check-circle"
+                                    style="color: #10b981"
+                                ></i>
+                                Free 14-day trial
+                            </div>
+                            <div class="feature-item">
+                                <i
+                                    class="fas fa-check-circle"
+                                    style="color: #10b981"
+                                ></i>
+                                No credit card required
+                            </div>
+                            <div class="feature-item">
+                                <i
+                                    class="fas fa-check-circle"
+                                    style="color: #10b981"
+                                ></i>
+                                Cancel anytime
+                            </div>
+                        </div>
+                    </div>
 
-        <div class="highlights-grid">
-          <div class="highlight-card">
-            <div class="highlight-icon icon-gradient-1">
-              <i class="fas fa-clock"></i>
-            </div>
-            <h3>Real-time Updates</h3>
-            <p>
-              Get instant notifications the moment something happens across all
-              your connected platforms.
-            </p>
-          </div>
+                    <div class="hero-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600"
+                            alt="Modern workspace with multiple monitors showing dashboard interfaces"
+                        />
 
-          <div class="highlight-card">
-            <div class="highlight-icon icon-gradient-2">
-              <i class="fas fa-filter"></i>
-            </div>
-            <h3>Smart Filtering</h3>
-            <p>
-              AI-powered filters help you focus on what matters most and reduce
-              notification fatigue.
-            </p>
-          </div>
+                        <div class="floating-card floating-card-1">
+                            <div
+                                style="
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 12px;
+                                "
+                            >
+                                <i
+                                    class="fab fa-github"
+                                    style="color: #333; font-size: 20px"
+                                ></i>
+                                <div>
+                                    <div
+                                        style="
+                                            font-weight: 600;
+                                            font-size: 14px;
+                                        "
+                                    >
+                                        New PR Review
+                                    </div>
+                                    <div
+                                        style="font-size: 12px; color: #6b7280"
+                                    >
+                                        2 minutes ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-          <div class="highlight-card">
-            <div class="highlight-icon icon-gradient-3">
-              <i class="fas fa-link"></i>
-            </div>
-            <h3>50+ Integrations</h3>
-            <p>
-              Connect with all your favorite tools including Gmail, GitHub,
-              Slack, and many more.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Features Section -->
-    <section id="features" class="features">
-      <div class="container">
-        <div class="section-header">
-          <h2>Powerful Features</h2>
-          <p>Everything you need to manage notifications effectively</p>
-        </div>
-
-        <div class="feature-row">
-          <div class="feature-image">
-            <img
-              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400"
-              alt="Clean dashboard interface showing multiple notification sources"
-            />
-          </div>
-          <div class="feature-content">
-            <h3>Unified Dashboard</h3>
-            <p>
-              See all your notifications from Gmail, YouTube, GitHub, DevTO,
-              Hashnode, and 50+ other platforms in one beautiful, organized
-              dashboard.
-            </p>
-            <ul class="feature-list">
-              <li>
-                <i class="fas fa-check-circle check-icon"></i>
-                Real-time notification aggregation
-              </li>
-              <li>
-                <i class="fas fa-check-circle check-icon"></i>
-                Customizable notification priorities
-              </li>
-              <li>
-                <i class="fas fa-check-circle check-icon"></i>
-                Advanced search and filtering
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="feature-row reverse">
-          <div class="feature-image">
-            <img
-              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400"
-              alt="Analytics dashboard showing notification patterns and insights"
-            />
-          </div>
-          <div class="feature-content">
-            <h3>Smart Analytics</h3>
-            <p>
-              Understand your notification patterns and optimize your workflow
-              with detailed analytics and insights.
-            </p>
-            <ul class="feature-list">
-              <li>
-                <i class="fas fa-check-circle check-icon"></i>
-                Weekly and monthly reports
-              </li>
-              <li>
-                <i class="fas fa-check-circle check-icon"></i>
-                Peak activity time analysis
-              </li>
-              <li>
-                <i class="fas fa-check-circle check-icon"></i>
-                Source performance metrics
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
-      <div class="container">
-        <div class="section-header">
-          <h2>What Our Users Say</h2>
-          <p>
-            Join thousands of satisfied customers who have transformed their
-            workflow
-          </p>
-        </div>
-
-        <div class="testimonials-grid">
-          <!-- Twitter-style testimonial -->
-          <div class="testimonial-card">
-            <div class="testimonial-platform twitter-icon">
-              <i class="fab fa-twitter"></i>
-            </div>
-            <div class="testimonial-header">
-              <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=64&h=64"
-                alt="Alex Chen"
-                class="testimonial-avatar"
-              />
-              <div class="testimonial-user-info">
-                <div class="testimonial-name">
-                  Alex Chen
-                  <i class="fas fa-check-circle verified-badge"></i>
+                        <div class="floating-card floating-card-2">
+                            <div
+                                style="
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 12px;
+                                "
+                            >
+                                <i
+                                    class="fas fa-envelope"
+                                    style="color: #ef4444; font-size: 20px"
+                                ></i>
+                                <div>
+                                    <div
+                                        style="
+                                            font-weight: 600;
+                                            font-size: 14px;
+                                        "
+                                    >
+                                        3 New Emails
+                                    </div>
+                                    <div
+                                        style="font-size: 12px; color: #6b7280"
+                                    >
+                                        5 minutes ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="testimonial-handle">
-                  @alexcodes • Senior Developer
+            </div>
+        </section>
+
+        <!-- Platform Slider -->
+        <section class="platform-slider">
+            <div class="container">
+                <p class="slider-text">
+                    Connect with 50+ platforms you already use
+                </p>
+
+                <div class="slider-container">
+                    <div class="slider-track">
+                        <div class="slider-content">
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-google platform-icon"
+                                    style="color: #ea4335"
+                                ></i>
+                                <span class="platform-name">Gmail</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-youtube platform-icon"
+                                    style="color: #ff0000"
+                                ></i>
+                                <span class="platform-name">YouTube</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-github platform-icon"
+                                    style="color: #181717"
+                                ></i>
+                                <span class="platform-name">GitHub</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-slack platform-icon"
+                                    style="color: #4a154b"
+                                ></i>
+                                <span class="platform-name">Slack</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-discord platform-icon"
+                                    style="color: #5865f2"
+                                ></i>
+                                <span class="platform-name">Discord</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fas fa-code platform-icon"
+                                    style="color: #0a0a0a"
+                                ></i>
+                                <span class="platform-name">Dev.to</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fas fa-blog platform-icon"
+                                    style="color: #2962ff"
+                                ></i>
+                                <span class="platform-name">Hashnode</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-reddit platform-icon"
+                                    style="color: #ff4500"
+                                ></i>
+                                <span class="platform-name">Reddit</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-linkedin platform-icon"
+                                    style="color: #0a66c2"
+                                ></i>
+                                <span class="platform-name">LinkedIn</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-medium platform-icon"
+                                    style="color: #000000"
+                                ></i>
+                                <span class="platform-name">Medium</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-figma platform-icon"
+                                    style="color: #f24e1e"
+                                ></i>
+                                <span class="platform-name">Figma</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-trello platform-icon"
+                                    style="color: #0052cc"
+                                ></i>
+                                <span class="platform-name">Trello</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fas fa-sticky-note platform-icon"
+                                    style="color: #000000"
+                                ></i>
+                                <span class="platform-name">Notion</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fas fa-rocket platform-icon"
+                                    style="color: #da552f"
+                                ></i>
+                                <span class="platform-name">Product Hunt</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-dropbox platform-icon"
+                                    style="color: #0061ff"
+                                ></i>
+                                <span class="platform-name">Dropbox</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fas fa-link platform-icon"
+                                    style="color: #ff4a00"
+                                ></i>
+                                <span class="platform-name">Zapier</span>
+                            </div>
+                        </div>
+                        <!-- Duplicate for seamless loop -->
+                        <div class="slider-content" style="margin-left: 64px">
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-google platform-icon"
+                                    style="color: #ea4335"
+                                ></i>
+                                <span class="platform-name">Gmail</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-youtube platform-icon"
+                                    style="color: #ff0000"
+                                ></i>
+                                <span class="platform-name">YouTube</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-github platform-icon"
+                                    style="color: #181717"
+                                ></i>
+                                <span class="platform-name">GitHub</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-slack platform-icon"
+                                    style="color: #4a154b"
+                                ></i>
+                                <span class="platform-name">Slack</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-discord platform-icon"
+                                    style="color: #5865f2"
+                                ></i>
+                                <span class="platform-name">Discord</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fas fa-code platform-icon"
+                                    style="color: #0a0a0a"
+                                ></i>
+                                <span class="platform-name">Dev.to</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fas fa-blog platform-icon"
+                                    style="color: #2962ff"
+                                ></i>
+                                <span class="platform-name">Hashnode</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-reddit platform-icon"
+                                    style="color: #ff4500"
+                                ></i>
+                                <span class="platform-name">Reddit</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-linkedin platform-icon"
+                                    style="color: #0a66c2"
+                                ></i>
+                                <span class="platform-name">LinkedIn</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-medium platform-icon"
+                                    style="color: #000000"
+                                ></i>
+                                <span class="platform-name">Medium</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-figma platform-icon"
+                                    style="color: #f24e1e"
+                                ></i>
+                                <span class="platform-name">Figma</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-trello platform-icon"
+                                    style="color: #0052cc"
+                                ></i>
+                                <span class="platform-name">Trello</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fas fa-sticky-note platform-icon"
+                                    style="color: #000000"
+                                ></i>
+                                <span class="platform-name">Notion</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fas fa-rocket platform-icon"
+                                    style="color: #da552f"
+                                ></i>
+                                <span class="platform-name">Product Hunt</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fab fa-dropbox platform-icon"
+                                    style="color: #0061ff"
+                                ></i>
+                                <span class="platform-name">Dropbox</span>
+                            </div>
+                            <div class="platform-item">
+                                <i
+                                    class="fas fa-link platform-icon"
+                                    style="color: #ff4a00"
+                                ></i>
+                                <span class="platform-name">Zapier</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-            <p class="testimonial-text">
-              Just switched to @NotifyHub and wow! 🤯 No more missing GitHub
-              notifications or important emails. Game changer for my workflow!
-              #productivity #developer
-            </p>
-            <div class="testimonial-footer">
-              <div class="testimonial-time">2h</div>
-              <div class="testimonial-engagement">
-                <div class="engagement-item">
-                  <i class="fas fa-heart engagement-icon"></i>
-                  <span>127</span>
+        </section>
+
+        <!-- Highlights Section -->
+        <section class="highlights">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Why Choose Notlify?</h2>
+                    <p>
+                        Stop missing important updates and streamline your
+                        workflow with our powerful notification management
+                        platform.
+                    </p>
                 </div>
-                <div class="engagement-item">
-                  <i class="fas fa-retweet engagement-icon"></i>
-                  <span>43</span>
+
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <div class="highlight-icon icon-gradient-1">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Real-time Updates</h3>
+                        <p>
+                            Get instant notifications the moment something
+                            happens across all your connected platforms.
+                        </p>
+                    </div>
+
+                    <div class="highlight-card">
+                        <div class="highlight-icon icon-gradient-2">
+                            <i class="fas fa-filter"></i>
+                        </div>
+                        <h3>Smart Filtering</h3>
+                        <p>
+                            AI-powered filters help you focus on what matters
+                            most and reduce notification fatigue.
+                        </p>
+                    </div>
+
+                    <div class="highlight-card">
+                        <div class="highlight-icon icon-gradient-3">
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <h3>50+ Integrations</h3>
+                        <p>
+                            Connect with all your favorite tools including
+                            Gmail, GitHub, Slack, and many more.
+                        </p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
+        </section>
 
-          <!-- LinkedIn-style testimonial -->
-          <div class="testimonial-card">
-            <div class="testimonial-platform linkedin-icon">
-              <i class="fab fa-linkedin"></i>
-            </div>
-            <div class="testimonial-header">
-              <img
-                src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=64&h=64"
-                alt="Sarah Johnson"
-                class="testimonial-avatar"
-              />
-              <div class="testimonial-user-info">
-                <div class="testimonial-name">Sarah Johnson</div>
-                <div class="testimonial-handle">
-                  Product Manager at TechCorp
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Powerful Features</h2>
+                    <p>
+                        Everything you need to manage notifications effectively
+                    </p>
                 </div>
-              </div>
-            </div>
-            <p class="testimonial-text">
-              The smart filtering in NotifyHub is incredible. It automatically
-              prioritizes my most important notifications and reduces noise. Our
-              team's productivity has increased by 40% since implementing it!
-            </p>
-            <div class="testimonial-footer">
-              <div class="testimonial-rating">
-                <i class="fas fa-star star"></i>
-                <i class="fas fa-star star"></i>
-                <i class="fas fa-star star"></i>
-                <i class="fas fa-star star"></i>
-                <i class="fas fa-star star"></i>
-              </div>
-              <div class="testimonial-time">1d</div>
-            </div>
-          </div>
 
-          <!-- Twitter-style testimonial -->
-          <div class="testimonial-card">
-            <div class="testimonial-platform twitter-icon">
-              <i class="fab fa-twitter"></i>
-            </div>
-            <div class="testimonial-header">
-              <img
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=64&h=64"
-                alt="Michael Torres"
-                class="testimonial-avatar"
-              />
-              <div class="testimonial-user-info">
-                <div class="testimonial-name">
-                  Michael Torres
-                  <i class="fas fa-check-circle verified-badge"></i>
+                <div class="feature-row">
+                    <div class="feature-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400"
+                            alt="Clean dashboard interface showing multiple notification sources"
+                        />
+                    </div>
+                    <div class="feature-content">
+                        <h3>Unified Dashboard</h3>
+                        <p>
+                            See all your notifications from Gmail, YouTube,
+                            GitHub, DevTO, Hashnode, and 50+ other platforms in
+                            one beautiful, organized dashboard.
+                        </p>
+                        <ul class="feature-list">
+                            <li>
+                                <i class="fas fa-check-circle check-icon"></i>
+                                Real-time notification aggregation
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle check-icon"></i>
+                                Customizable notification priorities
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle check-icon"></i>
+                                Advanced search and filtering
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="testimonial-handle">
-                  @miketorres • Content Creator
+
+                <div class="feature-row reverse">
+                    <div class="feature-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400"
+                            alt="Analytics dashboard showing notification patterns and insights"
+                        />
+                    </div>
+                    <div class="feature-content">
+                        <h3>Smart Analytics</h3>
+                        <p>
+                            Understand your notification patterns and optimize
+                            your workflow with detailed analytics and insights.
+                        </p>
+                        <ul class="feature-list">
+                            <li>
+                                <i class="fas fa-check-circle check-icon"></i>
+                                Weekly and monthly reports
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle check-icon"></i>
+                                Peak activity time analysis
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle check-icon"></i>
+                                Source performance metrics
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-              </div>
             </div>
-            <p class="testimonial-text">
-              As a content creator, tracking notifications from YouTube, DevTO,
-              and all social platforms was chaos. @NotifyHub solved everything
-              in one dashboard! 🙌 #ContentCreator #NotifyHub
-            </p>
-            <div class="testimonial-footer">
-              <div class="testimonial-time">5h</div>
-              <div class="testimonial-engagement">
-                <div class="engagement-item">
-                  <i class="fas fa-heart engagement-icon"></i>
-                  <span>89</span>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>What Our Users Say</h2>
+                    <p>
+                        Join thousands of satisfied customers who have
+                        transformed their workflow
+                    </p>
                 </div>
-                <div class="engagement-item">
-                  <i class="fas fa-retweet engagement-icon"></i>
-                  <span>34</span>
+
+                <div class="testimonials-grid">
+                    <!-- Twitter-style testimonial -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-platform twitter-icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="testimonial-header">
+                            <img
+                                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=64&h=64"
+                                alt="Alex Chen"
+                                class="testimonial-avatar"
+                            />
+                            <div class="testimonial-user-info">
+                                <div class="testimonial-name">
+                                    Alex Chen
+                                    <i class="fas fa-check-circle verified-badge"></i>
+                                </div>
+                                <div class="testimonial-handle">@alexcodes • Senior Developer</div>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            Just switched to @Notlify and wow! 🤯 No more missing GitHub notifications or important emails. Game changer for my workflow! #productivity #developer
+                        </p>
+                        <div class="testimonial-footer">
+                            <div class="testimonial-time">2h</div>
+                            <div class="testimonial-engagement">
+                                <div class="engagement-item">
+                                    <i class="fas fa-heart engagement-icon"></i>
+                                    <span>127</span>
+                                </div>
+                                <div class="engagement-item">
+                                    <i class="fas fa-retweet engagement-icon"></i>
+                                    <span>43</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- LinkedIn-style testimonial -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-platform linkedin-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="testimonial-header">
+                            <img
+                                src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=64&h=64"
+                                alt="Sarah Johnson"
+                                class="testimonial-avatar"
+                            />
+                            <div class="testimonial-user-info">
+                                <div class="testimonial-name">Sarah Johnson</div>
+                                <div class="testimonial-handle">Product Manager at TechCorp</div>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            The smart filtering in Notlify is incredible. It automatically prioritizes my most important notifications and reduces noise. Our team's productivity has increased by 40% since implementing it!
+                        </p>
+                        <div class="testimonial-footer">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star star"></i>
+                                <i class="fas fa-star star"></i>
+                                <i class="fas fa-star star"></i>
+                                <i class="fas fa-star star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                            <div class="testimonial-time">1d</div>
+                        </div>
+                    </div>
+
+                    <!-- Twitter-style testimonial -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-platform twitter-icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="testimonial-header">
+                            <img
+                                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=64&h=64"
+                                alt="Michael Torres"
+                                class="testimonial-avatar"
+                            />
+                            <div class="testimonial-user-info">
+                                <div class="testimonial-name">
+                                    Michael Torres
+                                    <i class="fas fa-check-circle verified-badge"></i>
+                                </div>
+                                <div class="testimonial-handle">@miketorres • Content Creator</div>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            As a content creator, tracking notifications from YouTube, DevTO, and all social platforms was chaos. @Notlify solved everything in one dashboard! 🙌 #ContentCreator #Notlify
+                        </p>
+                        <div class="testimonial-footer">
+                            <div class="testimonial-time">5h</div>
+                            <div class="testimonial-engagement">
+                                <div class="engagement-item">
+                                    <i class="fas fa-heart engagement-icon"></i>
+                                    <span>89</span>
+                                </div>
+                                <div class="engagement-item">
+                                    <i class="fas fa-retweet engagement-icon"></i>
+                                    <span>34</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- LinkedIn-style testimonial -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-platform linkedin-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="testimonial-header">
+                            <img
+                                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=64&h=64"
+                                alt="Emma Davis"
+                                class="testimonial-avatar"
+                            />
+                            <div class="testimonial-user-info">
+                                <div class="testimonial-name">Emma Davis</div>
+                                <div class="testimonial-handle">UX Designer • Design Lead</div>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            The analytics in Notlify helped me understand my notification patterns and optimize my productivity schedule. The insights are incredibly detailed and actionable. Highly recommend for any professional!
+                        </p>
+                        <div class="testimonial-footer">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star star"></i>
+                                <i class="fas fa-star star"></i>
+                                <i class="fas fa-star star"></i>
+                                <i class="fas fa-star star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                            <div class="testimonial-time">3d</div>
+                        </div>
+                    </div>
+
+                    <!-- Twitter-style testimonial -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-platform twitter-icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="testimonial-header">
+                            <img
+                                src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=64&h=64"
+                                alt="David Kim"
+                                class="testimonial-avatar"
+                            />
+                            <div class="testimonial-user-info">
+                                <div class="testimonial-name">
+                                    David Kim
+                                    <i class="fas fa-check-circle verified-badge"></i>
+                                </div>
+                                <div class="testimonial-handle">@davidkim_dev • Full Stack Dev</div>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            Been using @Notlify for 2 weeks now. The integration with GitHub, Slack, and Gmail is seamless. Finally found a solution that actually works! 💯 #TechTools #Developer
+                        </p>
+                        <div class="testimonial-footer">
+                            <div class="testimonial-time">1d</div>
+                            <div class="testimonial-engagement">
+                                <div class="engagement-item">
+                                    <i class="fas fa-heart engagement-icon"></i>
+                                    <span>156</span>
+                                </div>
+                                <div class="engagement-item">
+                                    <i class="fas fa-retweet engagement-icon"></i>
+                                    <span>67</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- LinkedIn-style testimonial -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-platform linkedin-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="testimonial-header">
+                            <img
+                                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=64&h=64"
+                                alt="Lisa Rodriguez"
+                                class="testimonial-avatar"
+                            />
+                            <div class="testimonial-user-info">
+                                <div class="testimonial-name">Lisa Rodriguez</div>
+                                <div class="testimonial-handle">Marketing Director • Growth Expert</div>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            Notlify transformed how our marketing team manages notifications from 15+ platforms. The centralized dashboard saves us 3 hours daily and we never miss important campaign alerts anymore.
+                        </p>
+                        <div class="testimonial-footer">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star star"></i>
+                                <i class="fas fa-star star"></i>
+                                <i class="fas fa-star star"></i>
+                                <i class="fas fa-star star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                            <div class="testimonial-time">1w</div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
+        </section>
 
-          <!-- LinkedIn-style testimonial -->
-          <div class="testimonial-card">
-            <div class="testimonial-platform linkedin-icon">
-              <i class="fab fa-linkedin"></i>
-            </div>
-            <div class="testimonial-header">
-              <img
-                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=64&h=64"
-                alt="Emma Davis"
-                class="testimonial-avatar"
-              />
-              <div class="testimonial-user-info">
-                <div class="testimonial-name">Emma Davis</div>
-                <div class="testimonial-handle">UX Designer • Design Lead</div>
-              </div>
-            </div>
-            <p class="testimonial-text">
-              The analytics in NotifyHub helped me understand my notification
-              patterns and optimize my productivity schedule. The insights are
-              incredibly detailed and actionable. Highly recommend for any
-              professional!
-            </p>
-            <div class="testimonial-footer">
-              <div class="testimonial-rating">
-                <i class="fas fa-star star"></i>
-                <i class="fas fa-star star"></i>
-                <i class="fas fa-star star"></i>
-                <i class="fas fa-star star"></i>
-                <i class="fas fa-star star"></i>
-              </div>
-              <div class="testimonial-time">3d</div>
-            </div>
-          </div>
-
-          <!-- Twitter-style testimonial -->
-          <div class="testimonial-card">
-            <div class="testimonial-platform twitter-icon">
-              <i class="fab fa-twitter"></i>
-            </div>
-            <div class="testimonial-header">
-              <img
-                src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=64&h=64"
-                alt="David Kim"
-                class="testimonial-avatar"
-              />
-              <div class="testimonial-user-info">
-                <div class="testimonial-name">
-                  David Kim
-                  <i class="fas fa-check-circle verified-badge"></i>
+        <!-- FAQ Section -->
+        <section id="faq" class="faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Get answers to common questions about Notlify</p>
                 </div>
-                <div class="testimonial-handle">
-                  @davidkim_dev • Full Stack Dev
+
+                <div class="faq-container">
+                    <div class="faq-item" onclick="toggleFAQ(this)">
+                        <div class="faq-question">
+                            <span>What platforms does Notlify support?</span>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            Notlify supports 50+ platforms including Gmail,
+                            GitHub, YouTube, DevTO, Hashnode, Slack, Discord,
+                            Twitter, LinkedIn, Figma, and many more. We're
+                            constantly adding new integrations based on user
+                            feedback.
+                        </div>
+                    </div>
+
+                    <div class="faq-item" onclick="toggleFAQ(this)">
+                        <div class="faq-question">
+                            <span>Is there a free trial available?</span>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            Yes! We offer a 14-day free trial with full access
+                            to all features. No credit card required to get
+                            started. You can cancel anytime during the trial
+                            period.
+                        </div>
+                    </div>
+
+                    <div class="faq-item" onclick="toggleFAQ(this)">
+                        <div class="faq-question">
+                            <span>How secure is my data?</span>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            We take security seriously. All data is encrypted in
+                            transit and at rest using industry-standard AES-256
+                            encryption. We're SOC 2 compliant and never store
+                            your actual notification content, only metadata.
+                        </div>
+                    </div>
+
+                    <div class="faq-item" onclick="toggleFAQ(this)">
+                        <div class="faq-question">
+                            <span>Can I customize notification filters?</span>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            Absolutely! Notlify offers advanced filtering
+                            options including keyword filtering, source
+                            prioritization, time-based rules, and AI-powered
+                            smart filtering that learns from your behavior.
+                        </div>
+                    </div>
+
+                    <div class="faq-item" onclick="toggleFAQ(this)">
+                        <div class="faq-question">
+                            <span>What's the pricing after the trial?</span>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            We offer flexible pricing starting at $9/month for
+                            individual users and $19/month for teams. Enterprise
+                            plans are available for larger organizations. All
+                            plans include unlimited notifications and
+                            integrations.
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-            <p class="testimonial-text">
-              Been using @NotifyHub for 2 weeks now. The integration with
-              GitHub, Slack, and Gmail is seamless. Finally found a solution
-              that actually works! 💯 #TechTools #Developer
-            </p>
-            <div class="testimonial-footer">
-              <div class="testimonial-time">1d</div>
-              <div class="testimonial-engagement">
-                <div class="engagement-item">
-                  <i class="fas fa-heart engagement-icon"></i>
-                  <span>156</span>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <h2>Ready to Streamline Your Notifications?</h2>
+                <p>
+                    Join 10,000+ users who have already transformed their
+                    workflow with Notlify
+                </p>
+
+                <a href="#" class="btn btn-lg" data-action="signup">
+                    <i class="fas fa-rocket"></i>
+                    Start Free Trial
+                </a>
+
+                <div class="cta-features">
+                    <i class="fas fa-shield-alt"></i>
+                    14-day free trial • No credit card required • Cancel anytime
                 </div>
-                <div class="engagement-item">
-                  <i class="fas fa-retweet engagement-icon"></i>
-                  <span>67</span>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <div class="logo">
+                            <div class="logo-icon">
+                                <i class="fas fa-bell"></i>
+                            </div>
+                            <span class="logo-text">Notlify</span>
+                        </div>
+                        <p>
+                            All your notifications in one place. Stay
+                            productive, stay connected.
+                        </p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Integrations</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Changelog</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">API Docs</a></li>
+                            <li><a href="#">Status</a></li>
+                            <li><a href="#">Security</a></li>
+                        </ul>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <!-- LinkedIn-style testimonial -->
-          <div class="testimonial-card">
-            <div class="testimonial-platform linkedin-icon">
-              <i class="fab fa-linkedin"></i>
-            </div>
-            <div class="testimonial-header">
-              <img
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=64&h=64"
-                alt="Lisa Rodriguez"
-                class="testimonial-avatar"
-              />
-              <div class="testimonial-user-info">
-                <div class="testimonial-name">Lisa Rodriguez</div>
-                <div class="testimonial-handle">
-                  Marketing Director • Growth Expert
+                <div class="footer-bottom">
+                    <p style="color: #9ca3af; font-size: 14px">
+                        © 2024 Notlify. All rights reserved.
+                    </p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
                 </div>
-              </div>
             </div>
-            <p class="testimonial-text">
-              NotifyHub transformed how our marketing team manages notifications
-              from 15+ platforms. The centralized dashboard saves us 3 hours
-              daily and we never miss important campaign alerts anymore.
-            </p>
-            <div class="testimonial-footer">
-              <div class="testimonial-rating">
-                <i class="fas fa-star star"></i>
-                <i class="fas fa-star star"></i>
-                <i class="fas fa-star star"></i>
-                <i class="fas fa-star star"></i>
-                <i class="fas fa-star star"></i>
-              </div>
-              <div class="testimonial-time">1w</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        </footer>
 
-    <!-- FAQ Section -->
-    <section id="faq" class="faq">
-      <div class="container">
-        <div class="section-header">
-          <h2>Frequently Asked Questions</h2>
-          <p>Get answers to common questions about NotifyHub</p>
-        </div>
-
-        <div class="faq-container">
-          <div class="faq-item" onclick="toggleFAQ(this)">
-            <div class="faq-question">
-              <span>What platforms does NotifyHub support?</span>
-              <i class="fas fa-chevron-down faq-icon"></i>
-            </div>
-            <div class="faq-answer">
-              NotifyHub supports 50+ platforms including Gmail, GitHub, YouTube,
-              DevTO, Hashnode, Slack, Discord, Twitter, LinkedIn, Figma, and
-              many more. We're constantly adding new integrations based on user
-              feedback.
-            </div>
-          </div>
-
-          <div class="faq-item" onclick="toggleFAQ(this)">
-            <div class="faq-question">
-              <span>Is there a free trial available?</span>
-              <i class="fas fa-chevron-down faq-icon"></i>
-            </div>
-            <div class="faq-answer">
-              Yes! We offer a 14-day free trial with full access to all
-              features. No credit card required to get started. You can cancel
-              anytime during the trial period.
-            </div>
-          </div>
-
-          <div class="faq-item" onclick="toggleFAQ(this)">
-            <div class="faq-question">
-              <span>How secure is my data?</span>
-              <i class="fas fa-chevron-down faq-icon"></i>
-            </div>
-            <div class="faq-answer">
-              We take security seriously. All data is encrypted in transit and
-              at rest using industry-standard AES-256 encryption. We're SOC 2
-              compliant and never store your actual notification content, only
-              metadata.
-            </div>
-          </div>
-
-          <div class="faq-item" onclick="toggleFAQ(this)">
-            <div class="faq-question">
-              <span>Can I customize notification filters?</span>
-              <i class="fas fa-chevron-down faq-icon"></i>
-            </div>
-            <div class="faq-answer">
-              Absolutely! NotifyHub offers advanced filtering options including
-              keyword filtering, source prioritization, time-based rules, and
-              AI-powered smart filtering that learns from your behavior.
-            </div>
-          </div>
-
-          <div class="faq-item" onclick="toggleFAQ(this)">
-            <div class="faq-question">
-              <span>What's the pricing after the trial?</span>
-              <i class="fas fa-chevron-down faq-icon"></i>
-            </div>
-            <div class="faq-answer">
-              We offer flexible pricing starting at $9/month for individual
-              users and $19/month for teams. Enterprise plans are available for
-              larger organizations. All plans include unlimited notifications
-              and integrations.
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta">
-      <div class="container">
-        <h2>Ready to Streamline Your Notifications?</h2>
-        <p>
-          Join 10,000+ users who have already transformed their workflow with
-          NotifyHub
-        </p>
-
-        <a href="#" class="btn btn-lg" >
-          <i class="fas fa-rocket"></i>
-          Start Free Trial
-        </a>
-
-        <div class="cta-features">
-          <i class="fas fa-shield-alt"></i>
-          14-day free trial • No credit card required • Cancel anytime
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-brand">
-            <div class="logo">
-              <div class="logo-icon">
-                <i class="fas fa-bell"></i>
-              </div>
-              <span class="logo-text">NotifyHub</span>
-            </div>
-            <p>
-              All your notifications in one place. Stay productive, stay
-              connected.
-            </p>
-            <div class="social-links">
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-github"></i></a>
-              <a href="#"><i class="fab fa-linkedin"></i></a>
-            </div>
-          </div>
-
-          <div class="footer-links">
-            <h4>Product</h4>
-            <ul>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Integrations</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Changelog</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-links">
-            <h4>Company</h4>
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-links">
-            <h4>Support</h4>
-            <ul>
-              <li><a href="#">Help Center</a></li>
-              <li><a href="#">API Docs</a></li>
-              <li><a href="#">Status</a></li>
-              <li><a href="#">Security</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="footer-bottom">
-          <p style="color: #9ca3af; font-size: 14px">
-            © 2024 NotifyHub. All rights reserved.
-          </p>
-          <div class="footer-bottom-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-            <a href="#">Cookie Policy</a>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- javascript file  -->
-    <script src="logic.js"></script>
-  </body>
+      
+    </body>
 </html>
