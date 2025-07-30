@@ -225,6 +225,7 @@
             }
 
             .beta-text {
+                margin-left: 10px;
                 color: #b91c1c;
                 font-size: 14px;
                 font-weight: 500;
